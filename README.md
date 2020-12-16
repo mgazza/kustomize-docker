@@ -2,15 +2,15 @@
 Docker image for systems using Kustomize and kubectl.
 
 Included additions beyond base Apline:
-- Kustomize 1.0.5
-- Kubectl 1.11.1
+- Kustomize 3.8.5
+- Kubectl 1.20.0
 - envsubst
 
 Working directory is set to `/working/` if you need to mount files.
 
 # Usage
 ## On docker
-If you're making up your own workflow, the image is on [Docker Hub](https://hub.docker.com/r/traherom/kustomize-docker/).
+If you're making up your own workflow, the image is on [GitHub Container Registry](ghcr.io/mgazza/kustomize-docker:latest).
 
 ## End-to-end Usage
 Using the commands shown below, a complete deploy can be run by piping the output of each into the others:
